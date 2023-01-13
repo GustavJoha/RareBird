@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Pantgubbe : MonoBehaviour
 {
 	private float speed = 2.0f;
@@ -14,6 +14,8 @@ public class Pantgubbe : MonoBehaviour
 	public int antalFlaskor = 0;
 	public int capacity;
 	public int pengar = 0;
+	public Text score;
+	public Text pant;
     private void Start()
     {
 		capacity = maxcapacity;
@@ -37,5 +39,8 @@ public class Pantgubbe : MonoBehaviour
 		{
 			transform.position += Vector3.back * speed * Time.deltaTime;
 		}
+		score.text = pengar.ToString();
+		pant.text = ("Burkar: " + antalBurkar.ToString() + " Flaskor: " + antalFlaskor.ToString() + "Utrymme kvar i väska: " + capacity.ToString() + "/" + maxcapacity.ToString() );
 	}
+
 }
