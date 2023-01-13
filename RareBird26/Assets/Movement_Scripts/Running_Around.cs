@@ -13,10 +13,15 @@ public class Running_Around : MonoBehaviour
 
     Vector3 PlayerVelocity;
 
+    Slide SlideTracker;
+
+
     // Start is called before the first frame update
     void Start()
     {
         RB = GetComponent<Rigidbody>();
+
+        SlideTracker = GetComponent<Slide>();
     }
 
     // Update is called once per frame
@@ -30,14 +35,15 @@ public class Running_Around : MonoBehaviour
         {
             if (ForwardRun < -1)
             {
-                ForwardRun+=Time.deltaTime * 5;
+                ForwardRun+=Time.deltaTime * 15;
             } 
             else if (ForwardRun > 1)
             {
-                ForwardRun-=Time.deltaTime * 5;
+                ForwardRun-=Time.deltaTime * 15;
             } else
             {
                 ForwardRun = 0;
+                SlideTracker.ForwardSlide = 0;
             }
         }
 
@@ -49,21 +55,23 @@ public class Running_Around : MonoBehaviour
         {
             if (SideRun < -1)
             {
-                SideRun+=Time.deltaTime * 5;
+                SideRun+=Time.deltaTime * 15;
             }
             else if (SideRun > 1)
             {
-                SideRun-=Time.deltaTime * 5;
+                SideRun-=Time.deltaTime * 15;
             }
             else
             {
                 SideRun = 0;
+                SlideTracker.SideSlide = 0;
             }
         }
 
-        PlayerVelocity = transform.forward * ForwardRun + transform.right * SideRun * Acceleration;
+        PlayerVelocity = transform.forward * ForwardRun + transform.right * SideRun * Acceleration + SlideTracker.SlideSpeedBoost;
 
-        PlayerVelocity.y = RB.velocity.y;
+
+       PlayerVelocity.y += RB.velocity.y;
 
         RB.velocity = PlayerVelocity;
 
