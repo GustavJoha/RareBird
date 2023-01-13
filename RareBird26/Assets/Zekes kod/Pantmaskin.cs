@@ -4,23 +4,51 @@ using UnityEngine;
 
 public class Pantmaskin : MonoBehaviour
 {
-    public Movement gubbe;
+    public Pantgubbe gubbe;
 
-    private int flaskor;
-    void Start()
+    [SerializeField]
+    float panttid = 1f;
+
+    AudioSource AudioSource;
+    public float tid = 0f;
+    private void Start()
     {
-        
+        AudioSource = GetComponent<AudioSource>();
     }
-
-    void Update()
+    private void Update()
     {
-        
+        if (Input.GetKey(KeyCode.E))
+        {
+            tid += Time.deltaTime;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        flaskor = gubbe.maxcapacity - gubbe.capacity;
-        gubbe.pengar = gubbe.pengar + flaskor;
-        gubbe.capacity = gubbe.maxcapacity;
+        tid = 0;
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if ((tid >= panttid) && (gubbe.capacity < gubbe.maxcapacity))
+        {
+            if (gubbe.antalBurkar > 0)
+            {
+                gubbe.pengar++;
+                gubbe.capacity++;
+                gubbe.antalBurkar--;
+            }
+            else
+            {
+                gubbe.pengar = gubbe.pengar + 2;
+                gubbe.capacity = gubbe.capacity + 2;
+                gubbe.antalFlaskor--;
+            }
+            tid = 0;
+        }
+        else if ((Input.GetKey(KeyCode.E)) && (gubbe.capacity < gubbe.maxcapacity) && !AudioSource.isPlaying)
+        {
+            AudioSource.Play();
+        }
     }
 }

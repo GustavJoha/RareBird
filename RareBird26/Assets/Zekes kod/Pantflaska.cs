@@ -7,16 +7,21 @@ public class Pantflaska : MonoBehaviour
     [SerializeField]
     [Range (1,2)]
     int storlek = 1;
-    public Movement movement;
+    public Pantgubbe gubbe;
 
 
     private void OnTriggerEnter(Collider collider)
     {
         print("hej hej");
-        if (movement.capacity > 0)
+        if ((gubbe.capacity - storlek >= 0) && collider.CompareTag("Player"))
         {
-            movement.capacity -= storlek;
+            gubbe.capacity -= storlek;
             gameObject.SetActive(false);
+            if (storlek == 1)
+                gubbe.antalBurkar++;
+            else
+                gubbe.antalFlaskor++;
+
         }
     }
 }

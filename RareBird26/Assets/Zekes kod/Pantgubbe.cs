@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class Pantgubbe : MonoBehaviour
 {
 	private float speed = 2.0f;
 	public GameObject character;
@@ -10,9 +10,10 @@ public class Movement : MonoBehaviour
 	[SerializeField]
 	public int maxcapacity = 10;
 
+	public int antalBurkar = 0;
+	public int antalFlaskor = 0;
 	public int capacity;
 	public int pengar = 0;
-
     private void Start()
     {
 		capacity = maxcapacity;
