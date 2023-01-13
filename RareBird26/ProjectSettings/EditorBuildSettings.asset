@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/aawaagga.unity
     guid: b129a2c4fade912489aeb901019166f3
+  - enabled: 1
+    path: Assets/Testscene.unity
+    guid: f3175c0158b37dc4ca0016855a175f04
   m_configObjects: {}
