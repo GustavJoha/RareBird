@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class timer : MonoBehaviour
 {
     public float TidKvar = 120;
@@ -11,6 +11,7 @@ public class timer : MonoBehaviour
     public Text CountdownText;
     public float CountdownTime = 3;
     public bool Countdown = true;
+    public float powerTime = 20;
     void Start()
     {
         StartCoroutine(StartCountdown());
@@ -36,6 +37,8 @@ public class timer : MonoBehaviour
                 Debug.Log("Tiden är slut");
                 TidKvar = 0;
                 timernTickar = false;
+                StartCoroutine(Gameover());
+
             }
         }
     }
@@ -46,7 +49,11 @@ public class timer : MonoBehaviour
         timetext.text = string.Format("{0:00} : {1:00}", minutes, seconds);
        
     }
-   
+  public void powerTid()
+    {
+        TidKvar += powerTime;
+        Debug.Log("mer tid");
+    }
     
     IEnumerator StartCountdown()
     {
@@ -61,6 +68,14 @@ public class timer : MonoBehaviour
         CountdownText.gameObject.SetActive(false);
         timernTickar = true;
 
+    }
+    IEnumerator Gameover()
+    {
+        CountdownText.gameObject.SetActive(true);
+        timetext.gameObject.SetActive(false);
+        CountdownText.text = "Tiden är slut";
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene("GameOver");
     }
 }
 

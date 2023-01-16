@@ -14,9 +14,8 @@ public class Running_Around : MonoBehaviour
     Vector3 PlayerVelocity;
 
     Slide SlideTracker;
-
-
-    // Start is called before the first frame update
+    public float powerTimer = 10f;
+    public bool speedpower = false;
     void Start()
     {
         RB = GetComponent<Rigidbody>();
@@ -24,7 +23,6 @@ public class Running_Around : MonoBehaviour
         SlideTracker = GetComponent<Slide>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         ForwardRun += Input.GetAxis("Vertical")*Time.deltaTime*Acceleration;
@@ -35,11 +33,11 @@ public class Running_Around : MonoBehaviour
         {
             if (ForwardRun < -1)
             {
-                ForwardRun+=Time.deltaTime * 15;
+                ForwardRun+=Time.deltaTime * 30;
             } 
             else if (ForwardRun > 1)
             {
-                ForwardRun-=Time.deltaTime * 15;
+                ForwardRun-=Time.deltaTime * 30;
             } else
             {
                 ForwardRun = 0;
@@ -55,11 +53,11 @@ public class Running_Around : MonoBehaviour
         {
             if (SideRun < -1)
             {
-                SideRun+=Time.deltaTime * 15;
+                SideRun+=Time.deltaTime * 30;
             }
             else if (SideRun > 1)
             {
-                SideRun-=Time.deltaTime * 15;
+                SideRun-=Time.deltaTime * 30;
             }
             else
             {
@@ -75,5 +73,24 @@ public class Running_Around : MonoBehaviour
 
         RB.velocity = PlayerVelocity;
 
+        if (speedpower)
+        {
+            PlayerVelocity *= 10f;
+            Debug.Log("power");
+        }
+    }
+    public void speedUp()
+    {
+
+        StartCoroutine(PowerUp());
+        
+        IEnumerator PowerUp()
+        {
+            speedpower = true;
+            yield return new WaitForSeconds(powerTimer);
+            speedpower = false;
+        }
+        
+       
     }
 }
