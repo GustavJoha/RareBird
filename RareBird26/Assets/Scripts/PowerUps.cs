@@ -6,6 +6,7 @@ public class PowerUps : MonoBehaviour
 {
     public Running_Around running;
     public timer timer;
+    public Jump Jump;
  
    void Update()
     {
@@ -20,6 +21,10 @@ public class PowerUps : MonoBehaviour
         if (collider.CompareTag("merTid"))
         {
             timer.powerTid();
+        }
+        if (collider.CompareTag("DoubleJump"))
+        {
+            Jump.powerJump();
         }
     }
 
