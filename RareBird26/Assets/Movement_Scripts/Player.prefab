@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1461446845640212344}
   - component: {fileID: 1461446845640212343}
   - component: {fileID: 1461446845640212346}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -114,7 +114,9 @@ GameObject:
   - component: {fileID: 1461446845922131404}
   - component: {fileID: 1461446845922131377}
   - component: {fileID: 1461446845922131378}
-  m_Layer: 0
+  - component: {fileID: -7287019410231194344}
+  - component: {fileID: -4368417485727444845}
+  m_Layer: 2
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -240,5 +242,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 97f6e75c669b6d248990d0de5f9b70f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-7287019410231194344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461446845922131403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a1db4d3ea9ba654c9b2b839b167f932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SlideSpeedBoost: {x: 0, y: 0, z: 0}
+  ForwardSlide: 0
+  SideSlide: 0
+--- !u!114 &-4368417485727444845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461446845922131403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2137ddcd73c362e4790ed2050513f10b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
