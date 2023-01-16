@@ -3026,7 +3026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gubbe: {fileID: 1115906909}
-  panttid: 1
+  panttid: 0.6
   tid: 0
 --- !u!82 &1503939098
 AudioSource:
