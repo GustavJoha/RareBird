@@ -231,6 +231,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Acceleration: 3
+  DeAcceleration: 45
+  powerTimer: 10
+  speedpower: 0
 --- !u!114 &1461446845922131378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,6 +246,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97f6e75c669b6d248990d0de5f9b70f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Jumpforce: 500
+  powerdoubble: 0
+  doublejump: 2
+  jumpPowerTime: 10
 --- !u!114 &-7287019410231194344
 MonoBehaviour:
   m_ObjectHideFlags: 0

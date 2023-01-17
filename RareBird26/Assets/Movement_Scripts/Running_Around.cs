@@ -10,7 +10,7 @@ public class Running_Around : MonoBehaviour
     float SideRun;
 
     public float Acceleration;
-    public float DeAcceleration = 30;
+    public float DeAcceleration;
 
     Vector3 PlayerVelocity;
 
