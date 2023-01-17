@@ -5,6 +5,8 @@ using UnityEngine;
 public class Jump : MonoBehaviour
 {
     Rigidbody RB;
+    public float Jumpforce;
+
     public bool powerdoubble = false;
     public float doublejump = 2;
     public float jumpPowerTime = 10;
@@ -20,20 +22,19 @@ public class Jump : MonoBehaviour
         if (powerdoubble == false)
         {
             if (Physics.Raycast(new Ray(transform.position, Vector3.down), 1.1f, 1) && Input.GetKeyDown(KeyCode.Space))
-            {
-                RB.AddForce(Vector3.up * 500);
+            { //Den här koden Är igentligen bara en simpel groundcheck. Om spelaren är tillräckligt nära marken så kan dem hoppa. -Gustav
+                RB.AddForce(Vector3.up * Jumpforce);
             }
         }
         if (powerdoubble)
         {
-            Debug.Log("dj");
             if (Physics.Raycast(new Ray(transform.position, Vector3.down), 1.1f, 1))
             {
                 doublejump = 2;
             }
             if (Input.GetKeyDown(KeyCode.Space) && doublejump > 1)
             {
-                RB.AddForce(Vector3.up * 500);
+                RB.AddForce(Vector3.up * Jumpforce);
                 doublejump -= 1;
                 
             }

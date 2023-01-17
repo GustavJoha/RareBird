@@ -10,6 +10,7 @@ public class Running_Around : MonoBehaviour
     float SideRun;
 
     public float Acceleration;
+    public float DeAcceleration = 30;
 
     Vector3 PlayerVelocity;
 
@@ -26,18 +27,19 @@ public class Running_Around : MonoBehaviour
     void Update()
     {
         ForwardRun += Input.GetAxis("Vertical")*Time.deltaTime*Acceleration;
-
+        // Den här koden låter spelaren bygga upp momentum över tid istället för att accelerera direkt. -Gustav
         ForwardRun = Mathf.Clamp(ForwardRun, -15, 15);
+        
 
         if(Input.GetAxis("Vertical") == 0)
-        {
+        {// Om spelaren inte rör sig i en riktning så börjar dem deaccelerera i den riktningen. -Gustav
             if (ForwardRun < -1)
             {
-                ForwardRun+=Time.deltaTime * 30;
+                ForwardRun+=Time.deltaTime * DeAcceleration;
             } 
             else if (ForwardRun > 1)
             {
-                ForwardRun-=Time.deltaTime * 30;
+                ForwardRun-=Time.deltaTime * DeAcceleration;
             } else
             {
                 ForwardRun = 0;
@@ -45,6 +47,8 @@ public class Running_Around : MonoBehaviour
             }
         }
 
+
+        //Det här stycket gör samma sak som ovanstående fast för sida till sida -Gustav
         SideRun += Input.GetAxis("Horizontal")*Time.deltaTime;
 
         SideRun = Mathf.Clamp(SideRun, -15, 15);
@@ -53,11 +57,11 @@ public class Running_Around : MonoBehaviour
         {
             if (SideRun < -1)
             {
-                SideRun+=Time.deltaTime * 30;
+                SideRun+=Time.deltaTime * DeAcceleration;
             }
             else if (SideRun > 1)
             {
-                SideRun-=Time.deltaTime * 30;
+                SideRun-=Time.deltaTime * DeAcceleration;
             }
             else
             {
@@ -67,9 +71,11 @@ public class Running_Around : MonoBehaviour
         }
 
         PlayerVelocity = transform.forward * ForwardRun + transform.right * SideRun * Acceleration + SlideTracker.SlideSpeedBoost;
-
+        //Här använder vi dem tidigare värdena för att framställa hastighet relativt till riktning som spelaren är vänd emot
 
        PlayerVelocity.y += RB.velocity.y;
+        //den här raden får karaktären att falla ordentligt. 
+
 
         RB.velocity = PlayerVelocity;
 

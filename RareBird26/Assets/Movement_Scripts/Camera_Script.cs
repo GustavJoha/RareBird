@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Camera_Script : MonoBehaviour
 {
-    Camera PlayerCam;
     public Transform Bodytransform;
 
     public int sensitivity = 100;
@@ -12,8 +11,6 @@ public class Camera_Script : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        PlayerCam = GetComponent<Camera>();
-
         Bodytransform = transform.parent.GetComponent<Transform>();
 
         Cursor.lockState = CursorLockMode.Locked;
@@ -21,19 +18,18 @@ public class Camera_Script : MonoBehaviour
 
 
 
-        float Vertical_Rotation;
+        float Vertical_Rotation; //kamerans vertikala rotation måste lagras i en variabel för att kunna clampas ordentligt. -Gustav
 
 
     // Update is called once per frame
     void Update()
     {
-        Bodytransform.Rotate(Vector3.up * Input.GetAxis("Mouse X")*Time.deltaTime*sensitivity);
-
+        Bodytransform.Rotate(Vector3.up * Input.GetAxis("Mouse X")*Time.deltaTime*sensitivity); //Roterar spelar objektet baserat på mus rörelse -Gustav
 
         Vertical_Rotation -= Input.GetAxis("Mouse Y")*Time.deltaTime*sensitivity;
 
-        Vertical_Rotation = Mathf.Clamp(Vertical_Rotation, -90, 90);
+        Vertical_Rotation = Mathf.Clamp(Vertical_Rotation, -90, 90); //förhindrar spelar kameran från att kunna snurra vertikalt. -Gustav
 
-        transform.localRotation = Quaternion.Euler(Vector3.right * Vertical_Rotation);
+        transform.localRotation = Quaternion.Euler(Vector3.right * Vertical_Rotation); //Roterar kameran vertikalt baserat på mus rörelse -Gustav
     }
 }
