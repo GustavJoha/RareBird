@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Testscene.unity
     guid: f3175c0158b37dc4ca0016855a175f04
+  - enabled: 1
+    path: Assets/Scenes/Zeke.unity
+    guid: 34c0f82335e47b64ba5f625e73239d48
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 6fd279e6c5feb1440beb876f3513a622
   m_configObjects: {}

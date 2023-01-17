@@ -34,13 +34,13 @@ public class Pantmaskin : MonoBehaviour
         {
             if (gubbe.antalBurkar > 0)
             {
-                gubbe.pengar++;
+                Pantgubbe.pengar++;
                 gubbe.capacity++;
                 gubbe.antalBurkar--;
             }
             else
             {
-                gubbe.pengar = gubbe.pengar + 2;
+                Pantgubbe.pengar = Pantgubbe.pengar + 2;
                 gubbe.capacity = gubbe.capacity + 2;
                 gubbe.antalFlaskor--;
             }

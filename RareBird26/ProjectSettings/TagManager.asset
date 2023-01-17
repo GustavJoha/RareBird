@@ -6,6 +6,7 @@ TagManager:
   tags:
   - SpeedUp
   - merTid
+  - DoubleJump
   layers:
   - Default
   - TransparentFX
