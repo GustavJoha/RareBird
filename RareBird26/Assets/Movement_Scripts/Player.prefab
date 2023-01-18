@@ -115,6 +115,7 @@ GameObject:
   - component: {fileID: 1461446845922131377}
   - component: {fileID: 1461446845922131378}
   - component: {fileID: -7287019410231194344}
+  - component: {fileID: 6477761215945791812}
   m_Layer: 2
   m_Name: Player
   m_TagString: Untagged
@@ -265,3 +266,22 @@ MonoBehaviour:
   SlideSpeedBoost: {x: 0, y: 0, z: 0}
   ForwardSlide: 0
   SideSlide: 0
+--- !u!114 &6477761215945791812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461446845922131403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af86b44f27502046b9ee0488a639f7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 0}
+  maxcapacity: 10
+  antalBurkar: 0
+  antalFlaskor: 0
+  capacity: 0
+  score: {fileID: 0}
+  pant: {fileID: 0}
