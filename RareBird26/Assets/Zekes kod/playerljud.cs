@@ -10,6 +10,7 @@ public class playerljud : MonoBehaviour
     const float c = 159.0f;
     AudioSource audioSource;
     public float playerVelocity;
+    public float sound = 5.0f;
 
     [SerializeField]
     public Running_Around spring;
@@ -20,16 +21,18 @@ public class playerljud : MonoBehaviour
     }
     private void Update()
     {
-        playerVelocity = 6;
         float mappedPlayerSpeed = playerVelocity; //Convert the speed so that walking speed is about 6
         float stepsPerSecond = ((a * Mathf.Pow(mappedPlayerSpeed, n)) + (b * mappedPlayerSpeed) + c) / 60.0f;
         float timePerStep = (1.0f / stepsPerSecond);
         float currentFootstepsWaitingPeriod = timePerStep; //Amount of time to wait before playing the next audio source
-        float sound = timePerStep -= Time.deltaTime;
+        sound -= Time.deltaTime;
 
-        if (true)
+        if (sound < 0)
         {
+            if (playerVelocity != 0)
+            print("fotsteg");
             audioSource.Play();
+            sound = timePerStep;
         }
     }
 
