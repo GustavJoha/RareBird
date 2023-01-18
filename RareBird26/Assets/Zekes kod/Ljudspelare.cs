@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Ljudspelare : MonoBehaviour
 {
+    public AudioClip burk;
+    public AudioClip flaska;
+    public AudioClip powerUp;
     AudioSource ljud;
     void Start()
     {
@@ -11,6 +14,10 @@ public class Ljudspelare : MonoBehaviour
     }
     public void Burk()
     {
-        ljud.Play();
+        ljud.PlayOneShot(burk);
+    }
+    public void PowerUp()
+    {
+        ljud.PlayOneShot(powerUp);
     }
 }

@@ -15,7 +15,6 @@ public class timer : MonoBehaviour
     void Start()
     {
         StartCoroutine(StartCountdown());
-        Time.timeScale = 0f;
     }
 
     void Update()
@@ -68,7 +67,7 @@ public class timer : MonoBehaviour
         yield return new WaitForSeconds(1);
         CountdownText.gameObject.SetActive(false);
         timernTickar = true;
-        Time.timeScale = 1f;
+        
 
     }
     IEnumerator Gameover()
