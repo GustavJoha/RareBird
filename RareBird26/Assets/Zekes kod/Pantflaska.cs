@@ -14,6 +14,8 @@ public class Pantflaska : MonoBehaviour
     private void Start()
     {
         jagvilldo = GetComponent<AudioSource>();
+        gubbe = FindObjectOfType<Pantgubbe>();
+        kamra = FindObjectOfType<Ljudspelare>();
     }
 
     private void OnTriggerEnter(Collider collider)
@@ -21,6 +23,7 @@ public class Pantflaska : MonoBehaviour
         print("hej hej");
         if ((gubbe.capacity - storlek >= 0) && collider.CompareTag("Player"))
         {
+            Debug.Log("hej 2");
             gubbe.capacity -= storlek;
 
             if (storlek == 1)

@@ -23,7 +23,7 @@ public class Pantgubbe : MonoBehaviour
     void Update()
 	{
 		score.text = pengar.ToString();
-		pant.text = ("Burkar: " + antalBurkar.ToString() + " Flaskor: " + antalFlaskor.ToString() + "Utrymme kvar i väska: " + capacity.ToString() + "/" + maxcapacity.ToString() );
+		pant.text = ("Burkar: " + antalBurkar.ToString() + " Flaskor: " + antalFlaskor.ToString() + " Utrymme kvar i väska: " + capacity.ToString() + "/" + maxcapacity.ToString() );
 		
 	}
 

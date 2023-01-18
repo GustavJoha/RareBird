@@ -24,6 +24,7 @@ public class PowerUps : MonoBehaviour
         }
         if (collider.CompareTag("DoubleJump"))
         {
+            Debug.Log ("doublejump");
             Jump.powerJump();
         }
     }
