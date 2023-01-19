@@ -12,7 +12,8 @@ public class Slide : MonoBehaviour
 
     public float ForwardSlide;
     public float SideSlide;
-
+    public GameObject legs;
+  
     // Update is called once per frame
     void Update()
     {
@@ -20,6 +21,8 @@ public class Slide : MonoBehaviour
         { //jag satte sliden i en coroutine för att enklare kunna hantera nedräkningen för när spelaren ska ställa sig upp-Gustav
             StartCoroutine(SlideTimer());
             SlideResetTimer = 0;
+            
+            
         }
         else
         { // när man slidar så får man en liten speed boost som nollställs när man inte slidar på 15 sekunder -Gustav
@@ -43,6 +46,7 @@ public class Slide : MonoBehaviour
         IsSliding = true;
         //sätter en variabel så att man vet om spelaren slidar och gör spelaren kortare under sliden -Gustav
         gameObject.transform.localScale = new Vector3(1, 0.5f, 1);
+        legs.SetActive(true);
 
         ForwardSlide += Input.GetAxis("Vertical");
         SideSlide += Input.GetAxis("Horizontal");
@@ -50,10 +54,22 @@ public class Slide : MonoBehaviour
 
         yield return new WaitForSeconds(4);
 
+       
         gameObject.transform.localScale = Vector3.one;
         //nollställer storleks ändringen och låter spelaren slida igen -Gustav
         IsSliding = false;
+        legs.SetActive(false);
+
+
+
+
+
+
+
     }
 
-    
+ 
+
+
+
 }

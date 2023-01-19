@@ -5,6 +5,9 @@ using UnityEngine;
 public class Running_Around : MonoBehaviour
 {
     Rigidbody RB;
+    Animator anim;
+
+    public static bool IsMoving = false;
 
     float ForwardRun;
     float SideRun;
@@ -23,8 +26,9 @@ public class Running_Around : MonoBehaviour
     void Start()
     {
         RB = GetComponent<Rigidbody>();
-
+        anim = GetComponentInChildren<Animator>();
         SlideTracker = GetComponent<Slide>();
+        IsMoving = false;
     }
 
     void Update()
@@ -32,10 +36,12 @@ public class Running_Around : MonoBehaviour
         ForwardRun += Input.GetAxis("Vertical")*Time.deltaTime*Acceleration;
         // Den här koden låter spelaren bygga upp momentum över tid istället för att accelerera direkt. -Gustav
         ForwardRun = Mathf.Clamp(ForwardRun, -15, 15);
-        
+        anim.SetBool("Move", IsMoving);
 
         if(Input.GetAxis("Vertical") == 0)
         {// Om spelaren inte rör sig i en riktning så börjar dem deaccelerera i den riktningen. -Gustav
+            IsMoving = false;
+
             if (ForwardRun < -1)
             {
                 ForwardRun+=Time.deltaTime * DeAcceleration;
@@ -48,8 +54,13 @@ public class Running_Around : MonoBehaviour
                 ForwardRun = 0;
                 SlideTracker.ForwardSlide = 0;
             }
+        } 
+        else
+        {
+         
+          IsMoving = true;
         }
-
+        
 
         //Det här stycket gör samma sak som ovanstående fast för sida till sida -Gustav
         SideRun += Input.GetAxis("Horizontal")*Time.deltaTime;
@@ -58,6 +69,7 @@ public class Running_Around : MonoBehaviour
 
         if (Input.GetAxis("Horizontal") == 0)
         {
+            
             if (SideRun < -1)
             {
                 SideRun+=Time.deltaTime * DeAcceleration;

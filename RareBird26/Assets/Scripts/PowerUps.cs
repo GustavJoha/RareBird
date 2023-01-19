@@ -7,6 +7,7 @@ public class PowerUps : MonoBehaviour
     public Running_Around running;
     public timer timer;
     public Jump Jump;
+    public Ljudspelare ljud;
  
    void Update()
     {
@@ -14,6 +15,7 @@ public class PowerUps : MonoBehaviour
     }
     private void OnTriggerEnter(Collider collider)
     {
+        ljud.PowerUp();
         if (collider.CompareTag("SpeedUp"))
         {
             running.speedUp();
