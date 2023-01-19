@@ -128,67 +128,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7351147088744454820, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
   m_PrefabInstance: {fileID: 973731873}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &72338647
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1461446845922131376, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461446845922131376, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.71
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461446845922131376, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.83
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461446845922131376, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3.5440109
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461446845922131376, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461446845922131376, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461446845922131376, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461446845922131376, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461446845922131376, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461446845922131376, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461446845922131376, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461446845922131403, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461446845922131403, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
 --- !u!1001 &97690398
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -207,11 +146,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (7)
@@ -281,11 +220,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (8)
@@ -440,11 +379,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (21)
@@ -519,11 +458,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (6)
@@ -666,11 +605,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (12)
@@ -732,412 +671,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7351147088744454820, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
   m_PrefabInstance: {fileID: 324625843}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &428111472
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1461446845640212342, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-  m_PrefabInstance: {fileID: 72338647}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 428111482}
-  - component: {fileID: 428111481}
-  - component: {fileID: 428111480}
-  - component: {fileID: 428111479}
-  - component: {fileID: 428111478}
-  - component: {fileID: 428111483}
-  - component: {fileID: 428111477}
-  - component: {fileID: 428111484}
-  m_Layer: 2
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &428111477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 428111472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b816e6cf86f0bbc4b82792d6ea5a9911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  burk: {fileID: 8300000, guid: 3b10e035fcb620b469f9da2fcaa782d3, type: 3}
-  flaska: {fileID: 8300000, guid: 1dc631070785fd7408d68de60a8927e1, type: 3}
-  powerUp: {fileID: 8300000, guid: b42e939a8e009484d93ac396b7df2f71, type: 3}
---- !u!82 &428111478
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 428111472}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3b10e035fcb620b469f9da2fcaa782d3, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 0.099
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &428111479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1461446845640212346, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-  m_PrefabInstance: {fileID: 72338647}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 428111472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43b55c6967503c544acffc54255e6f2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Bodytransform: {fileID: 0}
-  sensitivity: 200
---- !u!81 &428111480
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1461446845640212343, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-  m_PrefabInstance: {fileID: 72338647}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 428111472}
-  m_Enabled: 1
---- !u!20 &428111481
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1461446845640212344, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-  m_PrefabInstance: {fileID: 72338647}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 428111472}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &428111482
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1461446845640212345, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-  m_PrefabInstance: {fileID: 72338647}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 428111472}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.71, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1115906910}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &428111483
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 428111472}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b42e939a8e009484d93ac396b7df2f71, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 0.099
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!82 &428111484
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 428111472}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1dc631070785fd7408d68de60a8927e1, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &471360817
 GameObject:
   m_ObjectHideFlags: 0
@@ -1263,11 +796,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (27)
@@ -1342,11 +875,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (17)
@@ -1421,11 +954,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (26)
@@ -1495,11 +1028,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 668303398}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (3)
@@ -1551,6 +1084,59 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: -8677180009004349168, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
+--- !u!1 &668303396 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4513891221702852146, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+  m_PrefabInstance: {fileID: 903005403}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &668303398 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4513891221702852171, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+  m_PrefabInstance: {fileID: 903005403}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668303396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af86b44f27502046b9ee0488a639f7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &668303400 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4513891221702852144, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+  m_PrefabInstance: {fileID: 903005403}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668303396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f6e75c669b6d248990d0de5f9b70f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &668303401 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4513891221702852145, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+  m_PrefabInstance: {fileID: 903005403}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668303396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d050b293fc3b9fc498db5b303f8bef2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &668303407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668303396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b816e6cf86f0bbc4b82792d6ea5a9911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  burk: {fileID: 8300000, guid: 3b10e035fcb620b469f9da2fcaa782d3, type: 3}
+  flaska: {fileID: 8300000, guid: 1dc631070785fd7408d68de60a8927e1, type: 3}
+  powerUp: {fileID: 8300000, guid: b42e939a8e009484d93ac396b7df2f71, type: 3}
 --- !u!4 &696974860 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7351147088744454820, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
@@ -1579,11 +1165,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (14)
@@ -1653,7 +1239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2180261940030889376, guid: 3ee98955be7653a4480883f50d5a2aa3, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2180261940030889376, guid: 3ee98955be7653a4480883f50d5a2aa3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1777,11 +1363,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (13)
@@ -1833,6 +1419,99 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: -8677180009004349168, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
+--- !u!1001 &903005403
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -3698704583147512162, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: Jump
+      value: 
+      objectReference: {fileID: 668303400}
+    - target: {fileID: -3698704583147512162, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: ljud
+      value: 
+      objectReference: {fileID: 668303407}
+    - target: {fileID: -3698704583147512162, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: timer
+      value: 
+      objectReference: {fileID: 969342015}
+    - target: {fileID: -3698704583147512162, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: running
+      value: 
+      objectReference: {fileID: 668303401}
+    - target: {fileID: 4513891221702852146, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: m_Name
+      value: Player me kamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513891221702852146, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513891221702852170, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513891221702852170, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.981512
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513891221702852170, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513891221702852170, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.8121767
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513891221702852170, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513891221702852170, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513891221702852170, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513891221702852170, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513891221702852170, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513891221702852170, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513891221702852170, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513891221702852171, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: pant
+      value: 
+      objectReference: {fileID: 149170864}
+    - target: {fileID: 4513891221702852171, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1828345167}
+    - target: {fileID: 4513891221702852171, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: Utrymme
+      value: 
+      objectReference: {fileID: 1883635221}
+    - target: {fileID: 4513891221702852171, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
+      propertyPath: flaskor
+      value: 
+      objectReference: {fileID: 1602376949}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9e6f81a9bd5edfa4fbc4dba9c473e7a7, type: 3}
 --- !u!1001 &913678360
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1851,11 +1530,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (19)
@@ -1925,11 +1604,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (4)
@@ -2060,11 +1739,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (2)
@@ -2337,11 +2016,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (23)
@@ -2421,11 +2100,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (20)
@@ -2495,11 +2174,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (18)
@@ -2551,307 +2230,6 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: -8677180009004349168, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
---- !u!1 &1115906908
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1461446845922131403, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-  m_PrefabInstance: {fileID: 72338647}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1115906910}
-  - component: {fileID: 1115906918}
-  - component: {fileID: 1115906917}
-  - component: {fileID: 1115906916}
-  - component: {fileID: 1115906915}
-  - component: {fileID: 1115906914}
-  - component: {fileID: 1115906913}
-  - component: {fileID: 1115906912}
-  - component: {fileID: 1115906920}
-  - component: {fileID: 1115906909}
-  - component: {fileID: 1115906921}
-  m_Layer: 2
-  m_Name: Player
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1115906909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115906908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0af86b44f27502046b9ee0488a639f7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character: {fileID: 1115906908}
-  maxcapacity: 10
-  antalBurkar: 0
-  antalFlaskor: 0
-  capacity: 0
-  score: {fileID: 1828345167}
-  pant: {fileID: 149170864}
-  flaskor: {fileID: 0}
-  Utrymme: {fileID: 0}
---- !u!4 &1115906910
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1461446845922131376, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-  m_PrefabInstance: {fileID: 72338647}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115906908}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.71, y: 1.83, z: -3.5440109}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 428111482}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1115906912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: -7287019410231194344, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-  m_PrefabInstance: {fileID: 72338647}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115906908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a1db4d3ea9ba654c9b2b839b167f932, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SlideSpeedBoost: {x: 0, y: 0, z: 0}
-  ForwardSlide: 0
-  SideSlide: 0
---- !u!114 &1115906913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1461446845922131378, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-  m_PrefabInstance: {fileID: 72338647}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115906908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97f6e75c669b6d248990d0de5f9b70f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Jumpforce: 500
-  powerdoubble: 0
-  doublejump: 2
-  jumpPowerTime: 10
---- !u!114 &1115906914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1461446845922131377, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-  m_PrefabInstance: {fileID: 72338647}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115906908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d050b293fc3b9fc498db5b303f8bef2b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Acceleration: 3
-  DeAcceleration: 45
-  powerTimer: 10
-  speedpower: 0
---- !u!54 &1115906915
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1461446845922131404, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-  m_PrefabInstance: {fileID: 72338647}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115906908}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
---- !u!136 &1115906916
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1461446845922131405, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-  m_PrefabInstance: {fileID: 72338647}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115906908}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1115906917
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1461446845922131406, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-  m_PrefabInstance: {fileID: 72338647}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115906908}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1115906918
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1461446845922131407, guid: 5cab679b9ef991e479c8d41bee547a01, type: 3}
-  m_PrefabInstance: {fileID: 72338647}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115906908}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!82 &1115906920
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115906908}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 06b31ad1d6082d946bc960ada20c4d85, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 0
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &1115906921
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115906908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c97ab38aba222374da4d3e61e0fe90d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerVelocity: 1
-  sound: 5
-  spring: {fileID: 1115906914}
 --- !u!4 &1145224503 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7351147088744454820, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
@@ -2880,11 +2258,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (29)
@@ -2954,11 +2332,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (5)
@@ -3140,11 +2518,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (15)
@@ -3214,11 +2592,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (30)
@@ -3288,11 +2666,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (22)
@@ -3367,11 +2745,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (16)
@@ -3451,11 +2829,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (28)
@@ -3525,11 +2903,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (9)
@@ -3599,11 +2977,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (11)
@@ -3753,11 +3131,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (25)
@@ -3827,11 +3205,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (24)
@@ -3901,11 +3279,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab
@@ -4150,11 +3528,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (1)
@@ -4229,11 +3607,11 @@ PrefabInstance:
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 3629463171692049152, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 3659383961155157977, guid: 113179f86033ca449bd93d6ec6d7cde9, type: 3}
       propertyPath: m_Name
       value: Pantamera burk prefab (10)
@@ -4304,14 +3682,14 @@ PrefabInstance:
     - target: {fileID: 1858686832945216073, guid: 3ee98955be7653a4480883f50d5a2aa3, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 1858686832945216073, guid: 3ee98955be7653a4480883f50d5a2aa3, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 2180261940030889376, guid: 3ee98955be7653a4480883f50d5a2aa3, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2180261940030889376, guid: 3ee98955be7653a4480883f50d5a2aa3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4365,22 +3743,22 @@ PrefabInstance:
     - target: {fileID: 7025777015019176201, guid: 0ccfc447041f4ba408e6d9fdb5e65688, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 668303398}
     - target: {fileID: 7025777015019176203, guid: 0ccfc447041f4ba408e6d9fdb5e65688, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 7025777015019176203, guid: 0ccfc447041f4ba408e6d9fdb5e65688, type: 3}
       propertyPath: kamra
       value: 
-      objectReference: {fileID: 428111477}
+      objectReference: {fileID: 0}
     - target: {fileID: 7025777015067344916, guid: 0ccfc447041f4ba408e6d9fdb5e65688, type: 3}
       propertyPath: gubbe
       value: 
-      objectReference: {fileID: 1115906909}
+      objectReference: {fileID: 0}
     - target: {fileID: 7352737195156030831, guid: 0ccfc447041f4ba408e6d9fdb5e65688, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7352737195156030831, guid: 0ccfc447041f4ba408e6d9fdb5e65688, type: 3}
       propertyPath: m_LocalPosition.x
