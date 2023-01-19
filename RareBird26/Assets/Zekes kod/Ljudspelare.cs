@@ -16,6 +16,10 @@ public class Ljudspelare : MonoBehaviour
     {
         ljud.PlayOneShot(burk);
     }
+    public void Flaska()
+    {
+        ljud.PlayOneShot(flaska);
+    }
     public void PowerUp()
     {
         ljud.PlayOneShot(powerUp);
