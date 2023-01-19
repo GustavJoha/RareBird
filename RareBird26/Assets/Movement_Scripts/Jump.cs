@@ -32,7 +32,7 @@ public class Jump : MonoBehaviour
             {
                 doublejump = 2;
             }
-            if (Input.GetKeyDown(KeyCode.Space) && doublejump > 1)
+            if (Input.GetKeyDown(KeyCode.Space) && doublejump >= 1)
             {
                 RB.AddForce(Vector3.up * Jumpforce);
                 doublejump -= 1;

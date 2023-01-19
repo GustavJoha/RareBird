@@ -17,6 +17,9 @@ public class Running_Around : MonoBehaviour
     Slide SlideTracker;
     public float powerTimer = 10f;
     public bool speedpower = false;
+
+    float speedboost;
+
     void Start()
     {
         RB = GetComponent<Rigidbody>();
@@ -70,7 +73,7 @@ public class Running_Around : MonoBehaviour
             }
         }
 
-        PlayerVelocity = transform.forward * ForwardRun + transform.right * SideRun * Acceleration + SlideTracker.SlideSpeedBoost;
+        PlayerVelocity = (transform.forward * ForwardRun + transform.right * SideRun * Acceleration + SlideTracker.SlideSpeedBoost) * speedboost;
         //Här använder vi dem tidigare värdena för att framställa hastighet relativt till riktning som spelaren är vänd emot
 
        PlayerVelocity.y += RB.velocity.y;
@@ -81,8 +84,11 @@ public class Running_Around : MonoBehaviour
 
         if (speedpower)
         {
-            PlayerVelocity *= 10f;
+            speedboost = 2;
             Debug.Log("power");
+        } else
+        {
+            speedboost = 1;
         }
     }
     public void speedUp()
