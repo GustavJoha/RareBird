@@ -15,19 +15,21 @@ public class PowerUps : MonoBehaviour
     }
     private void OnTriggerEnter(Collider collider)
     {
-        ljud.PowerUp();
         if (collider.CompareTag("SpeedUp"))
         {
             running.speedUp();
+            ljud.PowerUp();
         }
         if (collider.CompareTag("merTid"))
         {
             timer.powerTid();
+            ljud.PowerUp();
         }
         if (collider.CompareTag("DoubleJump"))
         {
             Debug.Log ("doublejump");
             Jump.powerJump();
+            ljud.PowerUp();
         }
     }
 

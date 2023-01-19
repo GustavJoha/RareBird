@@ -10,9 +10,19 @@ public class Pantmaskin : MonoBehaviour
     float panttid = 1f;
 
     AudioSource AudioSource;
+    public AudioClip panthint;
+    public AudioClip burkhint;
+    AudioClip pantmaskin;
     public float tid = 0f;
+
+    [SerializeField]
+    float hinttid = 5.0f;
+
+    private float tid2 = 5.0f;
     private void Start()
     {
+        panthint = GetComponent<AudioClip>();
+        pantmaskin = GetComponent<AudioClip>();
         AudioSource = GetComponent<AudioSource>();
     }
     private void Update()
@@ -30,6 +40,25 @@ public class Pantmaskin : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+        if (tid == 0)
+        {
+            tid2 -= Time.deltaTime;
+        }
+        else
+        {
+            tid2 = hinttid;
+        }
+        if (tid2 <= 0)
+        {
+            if(gubbe.capacity == 0)
+            {
+
+            }
+            else
+            {
+
+            }
+        }
         if ((tid >= panttid) && (gubbe.capacity < gubbe.maxcapacity))
         {
             if (gubbe.antalBurkar > 0)
@@ -48,7 +77,7 @@ public class Pantmaskin : MonoBehaviour
         }
         else if ((Input.GetKey(KeyCode.E)) && (gubbe.capacity < gubbe.maxcapacity) && !AudioSource.isPlaying)
         {
-            AudioSource.Play();
+            AudioSource.PlayOneShot(pantmaskin);
         }
     }
 }
