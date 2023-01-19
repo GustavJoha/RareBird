@@ -16,7 +16,8 @@ public class Pausmeny : MonoBehaviour
             if (GameIsPaused)
             {
                 Resume();
-             
+                Cursor.lockState = CursorLockMode.Locked;
+
             } else
             {
                 Pause();
@@ -28,6 +29,7 @@ public class Pausmeny : MonoBehaviour
         UI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Pause()
@@ -35,6 +37,7 @@ public class Pausmeny : MonoBehaviour
         UI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     public void LoadMenu()
