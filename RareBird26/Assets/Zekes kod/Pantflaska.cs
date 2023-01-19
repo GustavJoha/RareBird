@@ -32,7 +32,11 @@ public class Pantflaska : MonoBehaviour
                 kamra.Burk();
             }
             else
+            {
                 gubbe.antalFlaskor++;
+                kamra.Flaska();
+            }
+
             gameObject.SetActive(false);
         }
     }
