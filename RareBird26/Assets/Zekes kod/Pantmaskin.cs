@@ -12,18 +12,19 @@ public class Pantmaskin : MonoBehaviour
     AudioSource AudioSource;
     public AudioClip panthint;
     public AudioClip burkhint;
-    AudioClip pantmaskin;
+    public AudioClip pantmaskin;
+    public AudioClip komvellen;
     public float tid = 0f;
 
     [SerializeField]
     float hinttid = 5.0f;
 
     private float tid2 = 5.0f;
+    private int velkommen = 0;
     private void Start()
     {
-        panthint = GetComponent<AudioClip>();
-        pantmaskin = GetComponent<AudioClip>();
         AudioSource = GetComponent<AudioSource>();
+        velkommen = 0;
     }
     private void Update()
     {
@@ -36,6 +37,11 @@ public class Pantmaskin : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         tid = 0;
+        if (velkommen == 0)
+        {
+            AudioSource.PlayOneShot(komvellen);
+            velkommen = 1;
+        }
     }
 
     private void OnTriggerStay(Collider other)
@@ -50,13 +56,19 @@ public class Pantmaskin : MonoBehaviour
         }
         if (tid2 <= 0)
         {
-            if(gubbe.capacity == 0)
+            if(gubbe.capacity == gubbe.maxcapacity)
             {
-
+                print("kom tillbaka");
+                AudioSource.PlayOneShot(burkhint);
+                tid2 = hinttid;
+                tid = 0.1f;
             }
             else
             {
-
+                print("håll in e för att panta");
+                AudioSource.PlayOneShot(panthint);
+                tid2 = hinttid;
+                tid = 0.1f;
             }
         }
         if ((tid >= panttid) && (gubbe.capacity < gubbe.maxcapacity))
