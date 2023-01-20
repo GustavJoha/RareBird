@@ -16,7 +16,7 @@ public class Pausmeny : MonoBehaviour
             if (GameIsPaused)
             {
                 Resume();
-                Cursor.lockState = CursorLockMode.Locked;
+              
 
             } else
             {
