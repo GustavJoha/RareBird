@@ -19,17 +19,22 @@ public class PowerUps : MonoBehaviour
         {
             running.speedUp();
             ljud.PowerUp();
+            Destroy(collider.gameObject);
         }
         if (collider.CompareTag("merTid"))
         {
             timer.powerTid();
             ljud.PowerUp();
+            Destroy(collider.gameObject);
+
         }
         if (collider.CompareTag("DoubleJump"))
         {
             Debug.Log ("doublejump");
             Jump.powerJump();
             ljud.PowerUp();
+            Destroy(collider.gameObject);
+
         }
     }
 

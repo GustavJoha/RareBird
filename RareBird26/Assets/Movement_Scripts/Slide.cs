@@ -52,7 +52,7 @@ public class Slide : MonoBehaviour
         SideSlide += Input.GetAxis("Horizontal");
         //lägger till hastighet baserat på ens knapptryck när man slidar. -Gustav
 
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(2);
 
        
         gameObject.transform.localScale = Vector3.one;
