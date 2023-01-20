@@ -9,7 +9,7 @@ public class Running_Around : MonoBehaviour
 
     public static bool IsMoving = false;
 
-    float ForwardRun;
+    public float ForwardRun;
     float SideRun;
 
     public float Acceleration;

@@ -10,6 +10,7 @@ public class Jump : MonoBehaviour
     public bool powerdoubble = false;
     public float doublejump = 2;
     public float jumpPowerTime = 10;
+    public bool onground = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +39,14 @@ public class Jump : MonoBehaviour
                 doublejump -= 1;
                 
             }
+        }
+        if (Physics.Raycast(new Ray(transform.position, Vector3.down), 1.1f, 1))
+        {
+            onground = true;
+        }
+        else
+        {
+            onground = false;
         }
     }
     public void powerJump()
