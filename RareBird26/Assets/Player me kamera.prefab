@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: -3698704583147512162}
   m_Layer: 2
   m_Name: Player me kamera
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -253,6 +253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d050b293fc3b9fc498db5b303f8bef2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ForwardRun: 0
   Acceleration: 3
   DeAcceleration: 45
   powerTimer: 10
@@ -273,6 +274,7 @@ MonoBehaviour:
   powerdoubble: 0
   doublejump: 2
   jumpPowerTime: 10
+  onground: 1
 --- !u!114 &4513891221702852147
 MonoBehaviour:
   m_ObjectHideFlags: 0
